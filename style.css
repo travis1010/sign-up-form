@@ -1,0 +1,158 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #0e0e0e;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+  background-color: white;
+  height: 100vh;
+  width: 1440px;
+  display: flex;
+}
+
+.left-side {
+  width: 536px;
+  height: 100%;
+  background: url("./leaves.jpg") no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+@font-face {
+  font-family: norse;
+  src: url("./Norse-Bold.otf");
+}
+
+.logo {
+  background: rgba(0, 0, 0, 0.5);
+  margin-top: 224px;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: norse, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #ffffff;
+  font-size: 86px;
+}
+
+.logo img {
+  height: 125px;
+}
+
+.caption {
+  position: absolute;
+  bottom: 12px;
+  color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+}
+
+a {
+  color: white;
+}
+
+.right-side {
+  background-color: #f9fafb;
+  width: 904px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  height: 336px;
+  width: 100%;
+  font-size: 22px;
+  font-weight: 600;
+  flex-grow: 0;
+  display: flex;
+  align-items: center;
+}
+
+.description p {
+  margin: 45px;
+  margin-right: 120px;
+}
+
+.form-container {
+  height: 276px;
+  width: 100%;
+  background-color: white;
+  flex-grow: 0;
+  flex-shrink: 0;
+  box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2);
+  display: flex;
+}
+
+form {
+  width: 100%;
+}
+
+.form-container h2 {
+  margin: 20px 45px 0px 45px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  margin: 20px 45px 0px 45px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+input {
+  height: 32px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid gray;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid blue;
+  box-shadow: 1px 1px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  margin: 32px 45px;
+  height: 44px;
+  width: 212px;
+  background-color: #596D48;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+button:hover {
+  color: black;
+}
+
+.account-p {
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 45px;
+}
+
+.login {
+  color: #596D48
+}
